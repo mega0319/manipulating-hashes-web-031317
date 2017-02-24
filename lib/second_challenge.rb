@@ -1,3 +1,4 @@
+
 def second_challenge
   groceries = {
    dairy: ["milk", "yogurt", "cheese"],
@@ -7,7 +8,9 @@ def second_challenge
   }
 
   #code your solution here!
+items = groceries.values
+total_items = items[0] + items[1] + items[2] + items[3]
+total_items
 
-  
 
 end
